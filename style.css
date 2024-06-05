@@ -269,6 +269,7 @@ main#main {
 	/*  */
 	display: flex;
 	align-items: baseline;
+	gap: 1rem;
 }
 
 .hero-section-2 .hero-left {
@@ -1225,6 +1226,19 @@ section#get-updates p {
 }
 
 @media only screen and (max-width: 600px) {
+	.hero-section-2 .hero-bottom .hero-right {
+		gap: 0rem;
+	}
+	.hero-section-2 .hero-bottom {
+		gap: 0rem;
+	}
+	.hero-section-2::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+	/*  */
 	.deep-heading-container h2 {
 		font-size: 44px;
 	}

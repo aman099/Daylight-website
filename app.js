@@ -20,7 +20,11 @@ slideshow.addEventListener("mouseleave", () => {
 // overlay
 const overlay = document.querySelector(".overlay");
 const hamburgerIcon = document.querySelector(".flex-column span:last-of-type");
+const x = document.querySelector('nav[id="mySidenav"] .closebtn');
 
-// hamburgerIcon.addEventListener("click", () => {
-// 	overlay.classList.add("active");
-// });
+hamburgerIcon.addEventListener("click", () => {
+	overlay.classList.add("active");
+});
+x.addEventListener("click", () => {
+	overlay.classList.remove("active");
+});
