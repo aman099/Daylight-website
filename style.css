@@ -29,8 +29,14 @@
 }
 /*  */
 
+.footer-flex {
+	display: flex;
+	gap: 3rem;
+}
+
 /* Sidebar */
 .flex-column {
+	padding-top: 20px;
 	padding-left: 20px;
 	display: flex;
 	flex-direction: column;
