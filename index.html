@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--  -->
+  <!-- Poppins Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--  -->
+  <!-- Pari CSS -->
+  <link rel="stylesheet" href="./beauty/pari.css" />
+  <!--  -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+  <title>Daylight Computer</title>
+</head>
+
+<body>
+  <div id="primary-container">
+    <div class="primary">
+      <div class="navbar">
+        <div class="navbar-container">
+          <nav id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <!-- <a href="#">Clients</a>
+            <a href="#">Contact</a> -->
+          </nav>
+          <!-- <p>Click on the element below to open the side navigation menu.</p> -->
+          <div class="flex-column">
+            <span><img src="./assets/site-logo.svg" alt="Company logo"></span>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden -->
+      <!-- <div class="navbar navbar-2">
+        <div class="navbar-container">
+          <nav id="mySidenav" class="nav-2">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Product</a> -->
+      <!-- <a href="#">Clients</a>
+            <a href="#">Contact</a> -->
+      <!-- </nav> -->
+      <!-- <p>Click on the element below to open the side navigation menu.</p> -->
+      <!-- <div class="flex-column">`
+            <span><img src="./assets/comp-logo.svg" alt="Company logo"></span>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="flex-column flex-column-2">
+        <span><img src="./assets/site-logo.svg" alt="Company logo"></span>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </div> -->
+      <!--  -->
+
+      <main id="main">
+        <div class="main-container">
+          <div class="overlay"></div>
+          <!-- Hero section -->
+          <div class="hero">
+            <div class="hero-container">
+              <div class="hero-section stars">
+                <div class="hero-left">
+                  <div class="hero-left-upper">
+                    <h1 class="hero-title">The computer, de-invented</h1>
+                    <p class="hero-subtitle">Meet DC-1. A new kind of computer, <br> designed for deep focus and
+                      wellbeing.
+                    </p>
+                  </div>
+                  <div class="slideshow-cont hero-left-lower">
+                    <div class="slideshow">
+                      <img class="thumbnail" src="./assets/hero-video-thumbnail.avif" alt="Placeholder video">
+                      <span class="hero-vid"><img src="./assets/animated.webp" alt="Video"></span>
+                      <span class="play"><i class="fa-solid fa-play"></i></span>
+                    </div>
+                    <div class="btn-container">
+                      <button class="primary-btn">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- refuse -->
+          <div class="refuse">
+            <div class="refuse-container">
+              <section id="refuse">
+                <p>We refuse to accept a future where our devices <br> are exhausting, addictive, and <span
+                    class="distracting">distracting </span></p>
+              </section>
+            </div>
+          </div>
+
+          <!-- refuse -->
+          <div class="refuse">
+            <div class="refuse-container">
+              <section id="refuse">
+                <p>Introducing Daylight - a healthier,<br> more human-friendly computer</p>
+              </section>
+            </div>
+          </div>
+
+          <!-- paper display -->
+          <div class="hero">
+            <div class="hero-container">
+              <div class="hero-section hero-section-2 stars">
+                <div class="hero-top">HELLO</div>
+                <div class="hero-bottom">
+                  <div class="hero-left">
+                    <h2>The world's first full-speed paper-like display</h2>
+                  </div>
+                  <div class="hero-right">
+                    <div class="hero-feature feature-1">
+                      <span><img src="./assets/60-fps.avif" alt=""></span>
+                      <div class="hero-right-flex">
+                        <h5>Smooth interactions</h5>
+                        <p>Scroll, zoom, turn pages--even watch video--without any lag</p>
+                      </div>
+                    </div>
+                    <div class="hero-feature feature-2">
+                      <span><img src="./assets/smiley.avif" alt=""></span>
+                      <div class="hero-right-flex">
+                        <h5>A calm experience</h5>
+                        <p>Stay connected with yourself and what's around you</p>
+                      </div>
+                    </div>
+                    <div class="hero-feature feature-3">
+                      <span><img src="./assets/heart-beat.avif" alt=""></span>
+                      <div class="hero-right-flex">
+                        <h5>For your health</h5>
+                        <p>Say goodbye to eye-strain--designed for full sunlight and nightime</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- distraction free -->
+          <div class="distraction-free">
+            <div class="distraction-free-container">
+              <section id="distraction-free">
+                <div class="distraction-free-upper">
+                  <div class="distraction distraction-1">
+                    <div class="img-container">
+                      <img src="./assets/distraction-free-1.png" alt="">
+                    </div>
+                    <div class="distraction-para">
+                      <span>Reading</span>
+                      <p>Your new favourite reading app for <br> books and documents</p>
+                    </div>
+                  </div>
+                  <div class="distraction distraction-2">
+                    <div class="img-container">
+                      <img src="./assets/distraction-free-2.png" alt="">
+                    </div>
+                    <div class="distraction-para">
+                      <span>Note-taking</span>
+                      <p>Write, draw and annotate on a <br> fast paper like surface</p>
+                    </div>
+                  </div>
+                  <div class="distraction distraction-3">
+                    <div class="img-container">
+                      <img src="./assets/distraction-free-3.png" alt="">
+                    </div>
+                    <div class="distraction-para">
+                      <span>Writing</span>
+                      <p>A sacred space for focused writing <br> without distraction</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="distraction-free-lower">
+                  <div class="distration-title">
+                    <h2>A distraction-free space for <br> learning & creativity</h2>
+                  </div>
+                  <div class="distraction-display">
+                    <span>Live Paper display</span>
+                    <p>We invented a new type of display that's like E Ink, but faster. It looks and feelds like
+                      paper, but runs at 60fps, so you can work fluidly, and use all your apps without compromise.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- apps you need -->
+          <div class="apps">
+            <div class="apps-container">
+              <section id="apps">
+                <div class="apps-left">
+                  <div class="heading-container">
+                    <h4>With all the <br> apps you need</h4>
+                    <p>Use all your favourite apps without the <br> distractions--it's the best of noth worlds.</p>
+                  </div>
+                  <div class="apps-grid">
+                    <div class="app app1">
+                      <img src="./assets/app-grid-1.avif" alt="">
+                    </div>
+                    <div class="app app2">
+                      <img src="./assets/app-grid-2.avif" alt="">
+                    </div>
+                    <div class="app app3">
+                      <img src="./assets/app-grid-3.avif" alt="">
+                    </div>
+                    <div class="app app4">
+                      <img src="./assets/app-grid-4.avif" alt="">
+                    </div>
+                    <div class="app app5">
+                      <img src="./assets/app-grid-5.avif" alt="">
+                    </div>
+                    <div class="app app6">
+                      <img src="./assets/app-grid-6.avif" alt="">
+                    </div>
+                    <div class="app app7">
+                      <img src="./assets/app-grid-7.avif" alt="">
+                    </div>
+                    <div class="app app8">
+                      <img src="./assets/app-grid-8.avif" alt="">
+                    </div>
+                    <div class="app app9">
+                      <img src="./assets/app-grid-9.avif" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="apps-right">
+                  <div class="img-cont">
+                    <img src="./assets/apps-you-need.png" alt="">
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- vision -->
+          <div class="vision">
+            <div class="vision-container">
+              <section id="vision">
+                <div class="img-cont">
+                  <img class="motion animate-slow" src="./assets/spinner.avif" alt="">
+                </div>
+                <div class="vision-para">
+                  <p>The vision for Daylight is to build a whole ecosystem <br> of healthier, more humane computers that
+                    respect <br> our health ,attention, and freedom.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- computer outside -->
+          <div class="computer-outside">
+            <div class="computer-outside-container">
+              <section id="computer-outside">
+                <div class="computers-content">
+                  <div class="computer-left">
+                    <p>outdoor computing <span><img src="./assets/illuminati.svg" alt=""></span></p>
+                    <h3> it's a computer you <br> can use outside</h3>
+                  </div>
+                  <div class="computer-right">
+                    <p>Read ub broad daylight with a screen that uses the sun <br> as it's backlight.</p>
+                    <p>DC-1 lights up beautifully outdoors without distracting <br> reflections, so you can read outside
+                      any time of the day</p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- features -->
+          <div class="features">
+            <div class="features-container">
+              <section id="features">
+                <div class="features-left">
+                  <div class="feature-img">
+                    <img src="./assets/grass.avif" alt="Tablet in grass">
+                  </div>
+                  <div class="features-grid">
+                    <div class="feature feature-1">
+                      <span><img src="./assets/features-grid-1.avif" alt=""></span>
+                      <div class="feature-info">
+                        <p>No eye-strain</p>
+                        <p>Flicker-free display is <br> easy on the eyes</p>
+                      </div>
+                    </div>
+                    <div class="feature feature-2">
+                      <span><img src="./assets/features-grid-2.avif" alt=""></span>
+                      <div class="feature-info">
+                        <p>Extended battery</p>
+                        <p>Days of use on a <br> single charge</p>
+                      </div>
+                    </div>
+                    <div class="feature feature-3">
+                      <span><img src="./assets/features-grid-3.avif" alt=""></span>
+                      <div class="feature-info">
+                        <p>Backlight optional</p>
+                        <p>Read in direct sunlight <br> no backlight needed</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="features-right"></div>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- refuse -->
+          <div class="refuse">
+            <div class="refuse-container">
+              <section id="refuse" class="refuse2">
+                <p>When the light goes off,<br> enjoy the amber glow</p>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- goodbye -->
+          <div class="goodbye">
+            <div class="goodbye-container">
+              <section id="goodbye">
+                <div class="goodbye-left">
+                  <div class="goodbye-img">
+                    <img src="./assets/tablet-hands.png" alt="Tablet in hands">
+                    <p class="goodbye-abs">When the light goes off,<br> enjoy the amber glow</p>
+                  </div>
+                </div>
+                <div class="goodbye-right">
+                  <div class="goodbye-heading">
+                    <h2>Goodbye, blue light</h2>
+                    <p>Most devices emit blue light that affects your circadian <br> rhythm, even in night mode.
+                      Daylight doesn't.</p>
+                  </div>
+                  <div class="goodbye-grid">
+                    <div class="grid grid-1">
+                      <span><i class="fa-solid fa-mattress-pillow"></i></span>
+                      <div class="grid-info">
+                        <h5>Better sleep</h5>
+                        <p>Can be used in <br> the direct sun <br> glare free</p>
+                      </div>
+                    </div>
+                    <div class="grid grid-2">
+                      <span><i class="fa-solid fa-sun"></i></span>
+                      <div class="grid-info">
+                        <h5>In sync with sun</h5>
+                        <p>Unlike a <br> conventional <br> screen, our display <br> is even more visible <br> in the
+                          direct
+                          sun!</p>
+                      </div>
+                    </div>
+                    <div class="grid grid-3">
+                      <span><i class="fa-solid fa-fire-flame-curved"></i></span>
+                      <div class="grid-info">
+                        <h5>Pure Amber</h5>
+                        <p>Enable speding <br> more time outdoors <br> when using a <br> computer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!--  -->
+
+          <!-- dive deep -->
+          <div class="dive-deep">
+            <div class="dive-deep-container">
+              <section id="dive-deep">
+                <div class="deep-heading-container">
+                  <h2>Dive deeper <br> into Daylight</h2>
+                  <div class="btn-con">
+                    <button class="primary-btn order">ORDER NOW</button>
+                    <button class="primary-btn learn">LEARN MORE</button>
+                  </div>
+                </div>
+                <div class="img-grid">
+                  <div class="grid grid-1">
+                    <div class="img-cont">
+                      <img src="./assets/dive-deep-1.avif" alt="">
+                      <h5>Day</h5>
+                    </div>
+                    <div class="dive-para">
+                      <p>Our hope is that it will be a better foundation <br> for what matters most to you.</p>
+                      <p>A more balanced life, a flourishing mind, and a <br> more creative way of being.</p>
+                    </div>
+                  </div>
+                  <div class="grid grid-2">
+                    <div class="img-cont">
+                      <img src="./assets/dive-deep-2.avif" alt="">
+                      <h5>Night</h5>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="public-benifit">
+                <div class="public-left">
+                  <div class="public-img">
+                    <img src="./assets/sun.avif" alt="Sun">
+                  </div>
+                </div>
+                <div class="public-right">
+                  <h2>Daylight is a <br> Public benifit Co.</h2>
+                  <p>One of my big surprises of Silicon Valley was finding out how nice & well intentioned many of the
+                    execs of “evil big tech” were. Shocking because I expected them to be evil. Heartbreaking because
+                    they weren’t.</p>
+                  <p>It meant big tech do bad not cuz of who runs them, but because of the systematic forces they’re
+                    beholden to, ie business model & shareholder mandate.</p>
+                  <p>So to make tech that does less evil, it’s not enough to believe we’re good people with good
+                    intentions. We need to root cause solve the systematic disincentives.</p>
+                  <p>Thus, we decided daylight should be a PBC, with a double bottom line: not just a fiduciary duty to
+                    shareholders, but also a civil duty to uphold our public benefit purpose:</p>
+                  <p>To help technology and humanity live happily ever after.</p>
+                  <p>Anjan Katta <br> Founder & CEO</p>
+                </div>
+              </section>
+              <section id="daylight-glance">
+                <div class="heading-glance">
+                  <h5>daylight at a glance</h5>
+                </div>
+                <div class="glance-para">
+                  <div class="para">
+                    <span><img src="./assets/glance-1.avif" alt=""></span>
+                    <p>Fast, paper-like display</p>
+                  </div>
+                  <div class="para">
+                    <span><img src="./assets/glance-2.avif" alt=""></span>
+                    <p>Fast, write, take notes</p>
+                  </div>
+                  <div class="para">
+                    <span><img src="./assets/glance-3.avif" alt=""></span>
+                    <p>Use all your your apps</p>
+                  </div>
+                  <div class="para">
+                    <span><img src="./assets/glance-4.avif" alt=""></span>
+                    <p>Sunlight readable</p>
+                  </div>
+                  <div class="para">
+                    <span><img src="./assets/glance-5.avif" alt=""></span>
+                    <p>Blue-light free backlight</p>
+                  </div>
+                </div>
+              </section>
+              <section id="founder">
+                <div class="founder-left">
+                  <div class="heading-founder">
+                    <p>founder's edition</p>
+                    <h2>daylight</h2>
+                    <div class="flex">
+                      <span class="includes">includes</span>
+                      <ul>
+                        <li>Tablet</li>
+                        <li>Stylus</li>
+                        <li>Sleeve</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="order-now-founder">
+                    <div class="btn-cont">
+                      <button class="primary-btn">order now</button>
+                    </div>
+                    <p class="limited-time"><span>For a limited time</span> -- get the founder's edition <br> complete
+                      with accessories</p>
+                  </div>
+                </div>
+                <div class="founder-right"></div>
+              </section>
+              <section id="footer">
+                <div class="footer-container">
+                  <div class="logo">
+                    <img src="./assets/company-logo.svg" alt="Company logo">
+                    <h4>daylight <br> computer <br> company</h4>
+                  </div>
+                  <div class="footer-flex">
+                    <div class="menus">
+                      <ul>
+                        <li class="first-menu">navigation</li>
+                        <li>home</li>
+                        <li>product</li>
+                        <li>support</li>
+                      </ul>
+                      <ul>
+                        <li class="first-menu">who we are</li>
+                        <p>A more caring <br> computer company</p>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <p>SOCIALS</p>
+                      <ul>
+                        <li><span><i class="fa-brands fa-twitter"></i></span></li>
+                        <li><span><i class="fa-brands fa-tiktok"></i></span></li>
+                        <li><span><i class="fa-brands fa-instagram"></i></span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="get-updates">
+                <p>© MMXXIV • Daylight Computer Co. • Daylight is a Public Benefit Co.</p>
+                <div class="get">
+                  <p>get updates</p>
+                  <div class="input-cont">
+                    <input type="text" placeholder="E-MAIL">
+                    <button class="primary-btn">GET UPDATES</button>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
